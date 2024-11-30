@@ -27,8 +27,9 @@ DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ALLOWED_HOSTS = ['localhost','https://luiscc21.github.io/','https://luiscc21.github.io']
+ALLOWED_HOSTS = ['http://*','https://*','localhost','https://luiscc21.github.io/','https://luiscc21.github.io']
 
+CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-43cb3.up.railway.app']
 
 # Application definition
 
